@@ -42,14 +42,13 @@ export function SubscriptionForm() {
         </div>
 
         <div className='space-y-2'>
-        <InputRoot>
-          <InputIcon>
-            <Mail />
-          </InputIcon>
-          <InputField type="email" placeholder="E-mail" {...register('email')} />
-        </InputRoot>
+          <InputRoot>
+            <InputIcon>
+              <Mail />
+            </InputIcon>
+            <InputField type="email" placeholder="E-mail" {...register('email')} />
+          </InputRoot>
         </div>
-
       </div>
 
       <Button type="submit">
